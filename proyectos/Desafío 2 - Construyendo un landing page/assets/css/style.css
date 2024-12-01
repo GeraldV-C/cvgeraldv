@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; 
+    background-color: #f4d9e1; 
+    color: #333; 
+    padding: 20px; 
+    line-height: 1.6; 
+}
+
+header {
+    background-image: url(../img/tienda.jpg);
+    height: 150px; 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-start; 
+    text-align: left; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+}
+
+h1 {
+    margin: 0; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    font-size: 2.5em; 
+}
+
+h3 {
+    margin-top: 10px; 
+    color: #ffffff; 
+    text-shadow: 1px 1px 3px rgba(212, 133, 232, 0.7); 
+}
+
+.Producto {
+    width: 300px; 
+    height: 300px; 
+    object-fit: contain; 
+    background-color: antiquewhite; 
+    border-radius: 20px; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.Producto:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.descripcion {
+    background-color: #ffcc99; 
+    padding: 15px; 
+    border-radius: 8px; 
+    margin-top: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+h2, h3 {
+    margin: 10px 0; 
+}
+
+table {
+    font-family: 'Lobster', cursive;
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 0 auto;
+}
+
+td {
+    padding: 20px; 
+    text-align: left; 
+    vertical-align: middle;
+    text-align: center; 
+}
+
+img {
+    width: 150px; 
+    height: auto; 
+    margin: 0 auto; 
+    display: block; 
+}
+
+footer {
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 0.9em; 
+    color: #666; 
+    background-color: antiquewhite; 
+    padding: 10px; 
+    border-radius: 8px; 
+}

@@ -1,0 +1,199 @@
+header {
+    background-color: black;
+    }
+
+header h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 400;
+   }
+
+body {
+
+    font-family: "Raleway", sans-serif;
+    
+
+}
+
+
+header img {
+
+    width: 100%;
+    height: auto;
+ }
+
+.medio {
+
+    display:flex;
+    column-gap: 20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 300 16px/19px Raleway;
+    padding: 50px;
+    
+}
+
+.medio p, .medio img {
+
+    width: 50%;
+
+
+}
+
+
+.medio img {
+
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+*{
+    
+margin: 0;
+padding: 0;
+
+
+}
+
+.parrafo1 {
+        width: 400px;
+        margin: auto;
+        text-align: justify;
+
+}
+
+.image-container {
+
+    display: flex;                      
+    flex-flow: wrap;
+    justify-content: center;
+    column-gap: 10px;
+    background-color: black;
+    padding: 80px;       
+}
+
+.image-container img {
+
+ 
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 0 10px;
+    object-fit: cover;
+    padding: 1rem;
+    border-radius: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    
+    background-color: #1E1A13;  /* Fondo claro */
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+   
+    color: white;
+   
+}
+
+.container {
+    display: flex;                        
+    justify-content: center;               
+    align-items: center;                   
+    gap: 2rem;                             
+    flex-wrap: wrap;                       
+}
+
+
+.item {
+    display: flex;                         
+    flex-direction: column;                
+    align-items: center;                   
+    justify-content: center;               
+    background-color: #1E1A13;                
+    padding: 1rem;
+    width: 200px;                          
+    height: 250px;                         
+}
+
+
+.item i {
+    font-size: 3rem;                       
+    color: white;                          
+    margin-bottom: 1rem;                   
+}
+
+
+.item h5 {
+    font-size: 1.2rem;                     
+    color: white;                           
+    margin: 0;                             
+}
+
+
+footer {
+    background-color: #1E1A13;
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 50px; 
+
+
+}
+
+
+
+
+svg path {
+    fill: #FFFFFF;  
+}
+
+
+
+.container .item i, .container .item svg {
+    color: white;         
+    font-size: 50px;      
+    width: 50px;          
+    height: 50px;         
+    display: inline-block; 
+    margin-bottom: 20px;  
+}
+
+
+.container .item h5 {
+    color: white;         
+    text-align: center;   
+}

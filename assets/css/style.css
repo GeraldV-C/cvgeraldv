@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar .navbar-nav .nav-link {
+    color: #fff !important;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #f8f9fa !important;
+    background-color: #495057;
+}
+.perfil-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+}
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cv-datos h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.cv-datos li {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+.recuadro {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    text-align: center;
+}
+.recuadro img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.recuadro h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+.recuadro p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+.section-title {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.cv-datos{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.perfil-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos dentro del contenedor */
+    align-items: center; /* Centra verticalmente los elementos dentro del contenedor */
+    gap: 30px; /* Espacio entre la foto y los datos */
+    text-align: left; /* Alinea el texto de los datos a la izquierda */
+    margin-top: 30px; /* Espacio superior */
+}
+
+/* Estilos de la foto de perfil */
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* Imagen de perfil */
+.foto-perfil img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos de los datos personales */
+.cv-datos {
+    list-style: none;
+    padding-left: 0;
+}
+
+.cv-datos li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+/* Estilos del título */
+.section-title {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Centra el título */
+}
